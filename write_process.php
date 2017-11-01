@@ -61,6 +61,7 @@ Message : Alert할 문자열 (줄 구분은 <br>)
 Url : 현재 페이지의 이동 주소 혹은 팝업창일 경우 'self.close':닫기, 'history.back':이전페이지
 Url2 : 부모창의 이동 주소
 */
+//광호가 푸쉬 알려달랬음
 $id = $_SESSION['id'];//세션으로 통해 값을 받았다!
 if($id){
 $title = mysqli_real_escape_string($conn, $_POST['title']);
